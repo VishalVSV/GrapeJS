@@ -12,18 +12,6 @@ namespace GrapeJS
         }
     }
 
-    public class Pair<T>
-    {
-        public T a;
-        public T b;
-
-        public Pair(T a, T b)
-        {
-            this.a = a;
-            this.b = b;
-        }
-    }
-
     public static class Compiler
     {
         private static List<GrapeFunction> Functions = new List<GrapeFunction>();
